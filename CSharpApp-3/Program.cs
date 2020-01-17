@@ -6,16 +6,18 @@ namespace CSharpApp_3
     {
         static void Main(string[] args)
         {
+            //C# Tutorial 3 Conditionals While Exceptions
+            //linke to video : https://www.youtube.com/watch?v=pVxJT3VxD0c&list=PLGLfVvz_LVvRX6xK1oi0reKci6ignjdSa&index=3
 
-            Random rnd = new Random();
-            int secretNumber = rnd.Next(1, 11);
-            int numberGuessed = 0;
-            do
-            {
-                Console.Write("Enter a Number between 1 & 10 : ");
-                numberGuessed = Convert.ToInt32
-                    (Console.ReadLine());
-            } while (secretNumber != numberGuessed);
+            //(part3)Random rnd = new Random();
+            //int secretNumber = rnd.Next(1, 11);
+            //int numberGuessed = 0;
+            //do
+            //{
+            //    Console.Write("Enter a Number between 1 & 10 : ");
+            //    numberGuessed = Convert.ToInt32
+            //        (Console.ReadLine());
+            //}(/part3) while (secretNumber != numberGuessed);
 
             //   (part2)While loop
             //     int i = 1;
